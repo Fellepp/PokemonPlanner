@@ -1,0 +1,1604 @@
+{
+    "pokemon": [
+        {
+            "galar_no": "001",
+            "name": "Grookey"
+        },
+        {
+            "galar_no": "002",
+            "name": "Thwackey"
+        },
+        {
+            "galar_no": "003",
+            "name": "Rillaboom"
+        },
+        {
+            "galar_no": "004",
+            "name": "Scorbunny"
+        },
+        {
+            "galar_no": "005",
+            "name": "Raboot"
+        },
+        {
+            "galar_no": "006",
+            "name": "Cinderace"
+        },
+        {
+            "galar_no": "007",
+            "name": "Sobble"
+        },
+        {
+            "galar_no": "008",
+            "name": "Drizzile"
+        },
+        {
+            "galar_no": "009",
+            "name": "Inteleon"
+        },
+        {
+            "galar_no": "010",
+            "name": "Blipbug"
+        },
+        {
+            "galar_no": "011",
+            "name": "Dottler"
+        },
+        {
+            "galar_no": "012",
+            "name": "Orbeetle"
+        },
+        {
+            "galar_no": "013",
+            "name": "Caterpie"
+        },
+        {
+            "galar_no": "014",
+            "name": "Metapod"
+        },
+        {
+            "galar_no": "015",
+            "name": "Butterfree"
+        },
+        {
+            "galar_no": "016",
+            "name": "Grubbin"
+        },
+        {
+            "galar_no": "017",
+            "name": "Charjabug"
+        },
+        {
+            "galar_no": "018",
+            "name": "Vikavolt"
+        },
+        {
+            "galar_no": "019",
+            "name": "Hoothoot"
+        },
+        {
+            "galar_no": "020",
+            "name": "Noctowl"
+        },
+        {
+            "galar_no": "021",
+            "name": "Rookidee"
+        },
+        {
+            "galar_no": "022",
+            "name": "Corvisquire"
+        },
+        {
+            "galar_no": "023",
+            "name": "Corviknight"
+        },
+        {
+            "galar_no": "024",
+            "name": "Skwovet"
+        },
+        {
+            "galar_no": "025",
+            "name": "Greedent"
+        },
+        {
+            "galar_no": "026",
+            "name": "Pidove"
+        },
+        {
+            "galar_no": "027",
+            "name": "Tranquill"
+        },
+        {
+            "galar_no": "028",
+            "name": "Unfezant"
+        },
+        {
+            "galar_no": "029",
+            "name": "Nickit"
+        },
+        {
+            "galar_no": "030",
+            "name": "Thievul"
+        },
+        {
+            "galar_no": "031",
+            "name": "Zigzagoon"
+        },
+        {
+            "galar_no": "032",
+            "name": "Linoone"
+        },
+        {
+            "galar_no": "033",
+            "name": "Obstagoon"
+        },
+        {
+            "galar_no": "034",
+            "name": "Wooloo"
+        },
+        {
+            "galar_no": "035",
+            "name": "Dubwool"
+        },
+        {
+            "galar_no": "036",
+            "name": "Lotad"
+        },
+        {
+            "galar_no": "037",
+            "name": "Lombre"
+        },
+        {
+            "galar_no": "038",
+            "name": "Ludicolo"
+        },
+        {
+            "galar_no": "039",
+            "name": "Seedot"
+        },
+        {
+            "galar_no": "040",
+            "name": "Nuzleaf"
+        },
+        {
+            "galar_no": "041",
+            "name": "Shiftry"
+        },
+        {
+            "galar_no": "042",
+            "name": "Chewtle"
+        },
+        {
+            "galar_no": "043",
+            "name": "Drednaw"
+        },
+        {
+            "galar_no": "044",
+            "name": "Purrloin"
+        },
+        {
+            "galar_no": "045",
+            "name": "Liepard"
+        },
+        {
+            "galar_no": "046",
+            "name": "Yamper"
+        },
+        {
+            "galar_no": "047",
+            "name": "Boltund"
+        },
+        {
+            "galar_no": "048",
+            "name": "Bunnelby"
+        },
+        {
+            "galar_no": "049",
+            "name": "Diggersby"
+        },
+        {
+            "galar_no": "050",
+            "name": "Minccino"
+        },
+        {
+            "galar_no": "051",
+            "name": "Cinccino"
+        },
+        {
+            "galar_no": "052",
+            "name": "Bounsweet"
+        },
+        {
+            "galar_no": "053",
+            "name": "Steenee"
+        },
+        {
+            "galar_no": "054",
+            "name": "Tsareena"
+        },
+        {
+            "galar_no": "055",
+            "name": "Oddish"
+        },
+        {
+            "galar_no": "056",
+            "name": "Gloom"
+        },
+        {
+            "galar_no": "057",
+            "name": "Vileplume"
+        },
+        {
+            "galar_no": "058",
+            "name": "Bellossom"
+        },
+        {
+            "galar_no": "059",
+            "name": "Budew"
+        },
+        {
+            "galar_no": "060",
+            "name": "Roselia"
+        },
+        {
+            "galar_no": "061",
+            "name": "Roserade"
+        },
+        {
+            "galar_no": "062",
+            "name": "Wingull"
+        },
+        {
+            "galar_no": "063",
+            "name": "Pelipper"
+        },
+        {
+            "galar_no": "064",
+            "name": "Joltik"
+        },
+        {
+            "galar_no": "065",
+            "name": "Galvantula"
+        },
+        {
+            "galar_no": "066",
+            "name": "Electrike"
+        },
+        {
+            "galar_no": "067",
+            "name": "Manectric"
+        },
+        {
+            "galar_no": "068",
+            "name": "Vulpix"
+        },
+        {
+            "galar_no": "069",
+            "name": "Ninetales"
+        },
+        {
+            "galar_no": "070",
+            "name": "Growlithe"
+        },
+        {
+            "galar_no": "071",
+            "name": "Arcanine"
+        },
+        {
+            "galar_no": "072",
+            "name": "Vanillite"
+        },
+        {
+            "galar_no": "073",
+            "name": "Vanillish"
+        },
+        {
+            "galar_no": "074",
+            "name": "Vanilluxe"
+        },
+        {
+            "galar_no": "075",
+            "name": "Swinub"
+        },
+        {
+            "galar_no": "076",
+            "name": "Piloswine"
+        },
+        {
+            "galar_no": "077",
+            "name": "Mamoswine"
+        },
+        {
+            "galar_no": "078",
+            "name": "Delibird"
+        },
+        {
+            "galar_no": "079",
+            "name": "Snorunt"
+        },
+        {
+            "galar_no": "080",
+            "name": "Glalie"
+        },
+        {
+            "galar_no": "081",
+            "name": "Froslass"
+        },
+        {
+            "galar_no": "082",
+            "name": "Baltoy"
+        },
+        {
+            "galar_no": "083",
+            "name": "Claydol"
+        },
+        {
+            "galar_no": "084",
+            "name": "Mudbray"
+        },
+        {
+            "galar_no": "085",
+            "name": "Mudsdale"
+        },
+        {
+            "galar_no": "086",
+            "name": "Dwebble"
+        },
+        {
+            "galar_no": "087",
+            "name": "Crustle"
+        },
+        {
+            "galar_no": "088",
+            "name": "Golett"
+        },
+        {
+            "galar_no": "089",
+            "name": "Golurk"
+        },
+        {
+            "galar_no": "090",
+            "name": "Munna"
+        },
+        {
+            "galar_no": "091",
+            "name": "Musharna"
+        },
+        {
+            "galar_no": "092",
+            "name": "Natu"
+        },
+        {
+            "galar_no": "093",
+            "name": "Xatu"
+        },
+        {
+            "galar_no": "094",
+            "name": "Stufful"
+        },
+        {
+            "galar_no": "095",
+            "name": "Bewear"
+        },
+        {
+            "galar_no": "096",
+            "name": "Snover"
+        },
+        {
+            "galar_no": "097",
+            "name": "Abomasnow"
+        },
+        {
+            "galar_no": "098",
+            "name": "Krabby"
+        },
+        {
+            "galar_no": "099",
+            "name": "Kingler"
+        },
+        {
+            "galar_no": "100",
+            "name": "Wooper"
+        },
+        {
+            "galar_no": "101",
+            "name": "Quagsire"
+        },
+        {
+            "galar_no": "102",
+            "name": "Corphish"
+        },
+        {
+            "galar_no": "103",
+            "name": "Crawdaunt"
+        },
+        {
+            "galar_no": "104",
+            "name": "Nincada"
+        },
+        {
+            "galar_no": "105",
+            "name": "Ninjask"
+        },
+        {
+            "galar_no": "106",
+            "name": "Shedinja"
+        },
+        {
+            "galar_no": "107",
+            "name": "Tyrogue"
+        },
+        {
+            "galar_no": "108",
+            "name": "Hitmonlee"
+        },
+        {
+            "galar_no": "109",
+            "name": "Hitmonchan"
+        },
+        {
+            "galar_no": "110",
+            "name": "Hitmontop"
+        },
+        {
+            "galar_no": "111",
+            "name": "Pancham"
+        },
+        {
+            "galar_no": "112",
+            "name": "Pangoro"
+        },
+        {
+            "galar_no": "113",
+            "name": "Klink"
+        },
+        {
+            "galar_no": "114",
+            "name": "Klang"
+        },
+        {
+            "galar_no": "115",
+            "name": "Klinklang"
+        },
+        {
+            "galar_no": "116",
+            "name": "Combee"
+        },
+        {
+            "galar_no": "117",
+            "name": "Vespiquen"
+        },
+        {
+            "galar_no": "118",
+            "name": "Bronzor"
+        },
+        {
+            "galar_no": "119",
+            "name": "Bronzong"
+        },
+        {
+            "galar_no": "120",
+            "name": "Ralts"
+        },
+        {
+            "galar_no": "121",
+            "name": "Kirlia"
+        },
+        {
+            "galar_no": "122",
+            "name": "Gardevoir"
+        },
+        {
+            "galar_no": "123",
+            "name": "Gallade"
+        },
+        {
+            "galar_no": "124",
+            "name": "Drifloon"
+        },
+        {
+            "galar_no": "125",
+            "name": "Drifblim"
+        },
+        {
+            "galar_no": "126",
+            "name": "Gossifleur"
+        },
+        {
+            "galar_no": "127",
+            "name": "Eldegoss"
+        },
+        {
+            "galar_no": "128",
+            "name": "Cherubi"
+        },
+        {
+            "galar_no": "129",
+            "name": "Cherrim"
+        },
+        {
+            "galar_no": "130",
+            "name": "Stunky"
+        },
+        {
+            "galar_no": "131",
+            "name": "Skuntank"
+        },
+        {
+            "galar_no": "132",
+            "name": "Tympole"
+        },
+        {
+            "galar_no": "133",
+            "name": "Palpitoad"
+        },
+        {
+            "galar_no": "134",
+            "name": "Seismitoad"
+        },
+        {
+            "galar_no": "135",
+            "name": "Duskull"
+        },
+        {
+            "galar_no": "136",
+            "name": "Dusclops"
+        },
+        {
+            "galar_no": "137",
+            "name": "Dusknoir"
+        },
+        {
+            "galar_no": "138",
+            "name": "Machop"
+        },
+        {
+            "galar_no": "139",
+            "name": "Machoke"
+        },
+        {
+            "galar_no": "140",
+            "name": "Machamp"
+        },
+        {
+            "galar_no": "141",
+            "name": "Gastly"
+        },
+        {
+            "galar_no": "142",
+            "name": "Haunter"
+        },
+        {
+            "galar_no": "143",
+            "name": "Gengar"
+        },
+        {
+            "galar_no": "144",
+            "name": "Magikarp"
+        },
+        {
+            "galar_no": "145",
+            "name": "Gyarados"
+        },
+        {
+            "galar_no": "146",
+            "name": "Goldeen"
+        },
+        {
+            "galar_no": "147",
+            "name": "Seaking"
+        },
+        {
+            "galar_no": "148",
+            "name": "Remoraid"
+        },
+        {
+            "galar_no": "149",
+            "name": "Octillery"
+        },
+        {
+            "galar_no": "150",
+            "name": "Shellder"
+        },
+        {
+            "galar_no": "151",
+            "name": "Cloyster"
+        },
+        {
+            "galar_no": "152",
+            "name": "Feebas"
+        },
+        {
+            "galar_no": "153",
+            "name": "Milotic"
+        },
+        {
+            "galar_no": "154",
+            "name": "Basculin"
+        },
+        {
+            "galar_no": "155",
+            "name": "Wishiwashi"
+        },
+        {
+            "galar_no": "156",
+            "name": "Pyukumuku"
+        },
+        {
+            "galar_no": "157",
+            "name": "Trubbish"
+        },
+        {
+            "galar_no": "158",
+            "name": "Garbodor"
+        },
+        {
+            "galar_no": "159",
+            "name": "Sizzlipede"
+        },
+        {
+            "galar_no": "160",
+            "name": "Centiskorch"
+        },
+        {
+            "galar_no": "161",
+            "name": "Rolycoly"
+        },
+        {
+            "galar_no": "162",
+            "name": "Carkol"
+        },
+        {
+            "galar_no": "163",
+            "name": "Coalossal"
+        },
+        {
+            "galar_no": "164",
+            "name": "Diglett"
+        },
+        {
+            "galar_no": "165",
+            "name": "Dugtrio"
+        },
+        {
+            "galar_no": "166",
+            "name": "Drilbur"
+        },
+        {
+            "galar_no": "167",
+            "name": "Excadrill"
+        },
+        {
+            "galar_no": "168",
+            "name": "Roggenrola"
+        },
+        {
+            "galar_no": "169",
+            "name": "Boldore"
+        },
+        {
+            "galar_no": "170",
+            "name": "Gigalith"
+        },
+        {
+            "galar_no": "171",
+            "name": "Timburr"
+        },
+        {
+            "galar_no": "172",
+            "name": "Gurdurr"
+        },
+        {
+            "galar_no": "173",
+            "name": "Conkeldurr"
+        },
+        {
+            "galar_no": "174",
+            "name": "Woobat"
+        },
+        {
+            "galar_no": "175",
+            "name": "Swoobat"
+        },
+        {
+            "galar_no": "176",
+            "name": "Noibat"
+        },
+        {
+            "galar_no": "177",
+            "name": "Noivern"
+        },
+        {
+            "galar_no": "178",
+            "name": "Onix"
+        },
+        {
+            "galar_no": "179",
+            "name": "Steelix"
+        },
+        {
+            "galar_no": "180",
+            "name": "Arrokuda"
+        },
+        {
+            "galar_no": "181",
+            "name": "Barraskewda"
+        },
+        {
+            "galar_no": "182",
+            "name": "Meowth"
+        },
+        {
+            "galar_no": "183",
+            "name": "Perrserker"
+        },
+        {
+            "galar_no": "184",
+            "name": "Persian"
+        },
+        {
+            "galar_no": "185",
+            "name": "Milcery"
+        },
+        {
+            "galar_no": "186",
+            "name": "Alcremie"
+        },
+        {
+            "galar_no": "187",
+            "name": "Cutiefly"
+        },
+        {
+            "galar_no": "188",
+            "name": "Ribombee"
+        },
+        {
+            "galar_no": "189",
+            "name": "Ferroseed"
+        },
+        {
+            "galar_no": "190",
+            "name": "Ferrothorn"
+        },
+        {
+            "galar_no": "191",
+            "name": "Pumpkaboo"
+        },
+        {
+            "galar_no": "192",
+            "name": "Gourgeist"
+        },
+        {
+            "galar_no": "193",
+            "name": "Pichu"
+        },
+        {
+            "galar_no": "194",
+            "name": "Pikachu"
+        },
+        {
+            "galar_no": "195",
+            "name": "Raichu"
+        },
+        {
+            "galar_no": "196",
+            "name": "Eevee"
+        },
+        {
+            "galar_no": "197",
+            "name": "Vaporeon"
+        },
+        {
+            "galar_no": "198",
+            "name": "Jolteon"
+        },
+        {
+            "galar_no": "199",
+            "name": "Flareon"
+        },
+        {
+            "galar_no": "200",
+            "name": "Espeon"
+        },
+        {
+            "galar_no": "201",
+            "name": "Umbreon"
+        },
+        {
+            "galar_no": "202",
+            "name": "Leafeon"
+        },
+        {
+            "galar_no": "203",
+            "name": "Glaceon"
+        },
+        {
+            "galar_no": "204",
+            "name": "Sylveon"
+        },
+        {
+            "galar_no": "205",
+            "name": "Applin"
+        },
+        {
+            "galar_no": "206",
+            "name": "Flapple"
+        },
+        {
+            "galar_no": "207",
+            "name": "Appletun"
+        },
+        {
+            "galar_no": "208",
+            "name": "Espurr"
+        },
+        {
+            "galar_no": "209",
+            "name": "Meowstic"
+        },
+        {
+            "galar_no": "210",
+            "name": "Swirlix"
+        },
+        {
+            "galar_no": "211",
+            "name": "Slurpuff"
+        },
+        {
+            "galar_no": "212",
+            "name": "Spritzee"
+        },
+        {
+            "galar_no": "213",
+            "name": "Aromatisse"
+        },
+        {
+            "galar_no": "214",
+            "name": "Dewpider"
+        },
+        {
+            "galar_no": "215",
+            "name": "Araquanid"
+        },
+        {
+            "galar_no": "216",
+            "name": "Wynaut"
+        },
+        {
+            "galar_no": "217",
+            "name": "Wobbuffet"
+        },
+        {
+            "galar_no": "218",
+            "name": "Farfetch'd"
+        },
+        {
+            "galar_no": "219",
+            "name": "Sirfetch'd"
+        },
+        {
+            "galar_no": "220",
+            "name": "Chinchou"
+        },
+        {
+            "galar_no": "221",
+            "name": "Lanturn"
+        },
+        {
+            "galar_no": "222",
+            "name": "Croagunk"
+        },
+        {
+            "galar_no": "223",
+            "name": "Toxicroak"
+        },
+        {
+            "galar_no": "224",
+            "name": "Scraggy"
+        },
+        {
+            "galar_no": "225",
+            "name": "Scrafty"
+        },
+        {
+            "galar_no": "226",
+            "name": "Stunfisk"
+        },
+        {
+            "galar_no": "227",
+            "name": "Shuckle"
+        },
+        {
+            "galar_no": "228",
+            "name": "Barboach"
+        },
+        {
+            "galar_no": "229",
+            "name": "Whiscash"
+        },
+        {
+            "galar_no": "230",
+            "name": "Shellos"
+        },
+        {
+            "galar_no": "231",
+            "name": "Gastrodon"
+        },
+        {
+            "galar_no": "232",
+            "name": "Wimpod"
+        },
+        {
+            "galar_no": "233",
+            "name": "Golisopod"
+        },
+        {
+            "galar_no": "234",
+            "name": "Binacle"
+        },
+        {
+            "galar_no": "235",
+            "name": "Barbaracle"
+        },
+        {
+            "galar_no": "236",
+            "name": "Corsola"
+        },
+        {
+            "galar_no": "237",
+            "name": "Cursola"
+        },
+        {
+            "galar_no": "238",
+            "name": "Impidimp"
+        },
+        {
+            "galar_no": "239",
+            "name": "Morgrem"
+        },
+        {
+            "galar_no": "240",
+            "name": "Grimmsnarl"
+        },
+        {
+            "galar_no": "241",
+            "name": "Hatenna"
+        },
+        {
+            "galar_no": "242",
+            "name": "Hattrem"
+        },
+        {
+            "galar_no": "243",
+            "name": "Hatterene"
+        },
+        {
+            "galar_no": "244",
+            "name": "Salandit"
+        },
+        {
+            "galar_no": "245",
+            "name": "Salazzle"
+        },
+        {
+            "galar_no": "246",
+            "name": "Pawniard"
+        },
+        {
+            "galar_no": "247",
+            "name": "Bisharp"
+        },
+        {
+            "galar_no": "248",
+            "name": "Throh"
+        },
+        {
+            "galar_no": "249",
+            "name": "Sawk"
+        },
+        {
+            "galar_no": "250",
+            "name": "Koffing"
+        },
+        {
+            "galar_no": "251",
+            "name": "Weezing"
+        },
+        {
+            "galar_no": "252",
+            "name": "Bonsly"
+        },
+        {
+            "galar_no": "253",
+            "name": "Sudowoodo"
+        },
+        {
+            "galar_no": "254",
+            "name": "Cleffa"
+        },
+        {
+            "galar_no": "255",
+            "name": "Clefairy"
+        },
+        {
+            "galar_no": "256",
+            "name": "Clefable"
+        },
+        {
+            "galar_no": "257",
+            "name": "Togepi"
+        },
+        {
+            "galar_no": "258",
+            "name": "Togetic"
+        },
+        {
+            "galar_no": "259",
+            "name": "Togekiss"
+        },
+        {
+            "galar_no": "260",
+            "name": "Munchlax"
+        },
+        {
+            "galar_no": "261",
+            "name": "Snorlax"
+        },
+        {
+            "galar_no": "262",
+            "name": "Cottonee"
+        },
+        {
+            "galar_no": "263",
+            "name": "Whimsicott"
+        },
+        {
+            "galar_no": "264",
+            "name": "Rhyhorn"
+        },
+        {
+            "galar_no": "265",
+            "name": "Rhydon"
+        },
+        {
+            "galar_no": "266",
+            "name": "Rhyperior"
+        },
+        {
+            "galar_no": "267",
+            "name": "Gothita"
+        },
+        {
+            "galar_no": "268",
+            "name": "Gothorita"
+        },
+        {
+            "galar_no": "269",
+            "name": "Gothitelle"
+        },
+        {
+            "galar_no": "270",
+            "name": "Solosis"
+        },
+        {
+            "galar_no": "271",
+            "name": "Duosion"
+        },
+        {
+            "galar_no": "272",
+            "name": "Reuniclus"
+        },
+        {
+            "galar_no": "273",
+            "name": "Karrablast"
+        },
+        {
+            "galar_no": "274",
+            "name": "Escavalier"
+        },
+        {
+            "galar_no": "275",
+            "name": "Shelmet"
+        },
+        {
+            "galar_no": "276",
+            "name": "Accelgor"
+        },
+        {
+            "galar_no": "277",
+            "name": "Elgyem"
+        },
+        {
+            "galar_no": "278",
+            "name": "Beheeyem"
+        },
+        {
+            "galar_no": "279",
+            "name": "Cubchoo"
+        },
+        {
+            "galar_no": "280",
+            "name": "Beartic"
+        },
+        {
+            "galar_no": "281",
+            "name": "Rufflet"
+        },
+        {
+            "galar_no": "282",
+            "name": "Braviary"
+        },
+        {
+            "galar_no": "283",
+            "name": "Vullaby"
+        },
+        {
+            "galar_no": "284",
+            "name": "Mandibuzz"
+        },
+        {
+            "galar_no": "285",
+            "name": "Skorupi"
+        },
+        {
+            "galar_no": "286",
+            "name": "Drapion"
+        },
+        {
+            "galar_no": "287",
+            "name": "Litwick"
+        },
+        {
+            "galar_no": "288",
+            "name": "Lampent"
+        },
+        {
+            "galar_no": "289",
+            "name": "Chandelure"
+        },
+        {
+            "galar_no": "290",
+            "name": "Inkay"
+        },
+        {
+            "galar_no": "291",
+            "name": "Malamar"
+        },
+        {
+            "galar_no": "292",
+            "name": "Sneasel"
+        },
+        {
+            "galar_no": "293",
+            "name": "Weavile"
+        },
+        {
+            "galar_no": "294",
+            "name": "Sableye"
+        },
+        {
+            "galar_no": "295",
+            "name": "Mawile"
+        },
+        {
+            "galar_no": "296",
+            "name": "Maractus"
+        },
+        {
+            "galar_no": "297",
+            "name": "Sigilyph"
+        },
+        {
+            "galar_no": "298",
+            "name": "Riolu"
+        },
+        {
+            "galar_no": "299",
+            "name": "Lucario"
+        },
+        {
+            "galar_no": "300",
+            "name": "Torkoal"
+        },
+        {
+            "galar_no": "301",
+            "name": "Mimikyu"
+        },
+        {
+            "galar_no": "302",
+            "name": "Cufant"
+        },
+        {
+            "galar_no": "303",
+            "name": "Copperajah"
+        },
+        {
+            "galar_no": "304",
+            "name": "Qwilfish"
+        },
+        {
+            "galar_no": "305",
+            "name": "Frillish"
+        },
+        {
+            "galar_no": "306",
+            "name": "Jellicent"
+        },
+        {
+            "galar_no": "307",
+            "name": "Mareanie"
+        },
+        {
+            "galar_no": "308",
+            "name": "Toxapex"
+        },
+        {
+            "galar_no": "309",
+            "name": "Cramorant"
+        },
+        {
+            "galar_no": "310",
+            "name": "Toxel"
+        },
+        {
+            "galar_no": "311",
+            "name": "Toxtricity"
+        },
+        {
+            "galar_no": "312",
+            "name": "Silicobra"
+        },
+        {
+            "galar_no": "313",
+            "name": "Sandaconda"
+        },
+        {
+            "galar_no": "314",
+            "name": "Hippopotas"
+        },
+        {
+            "galar_no": "315",
+            "name": "Hippowdon"
+        },
+        {
+            "galar_no": "316",
+            "name": "Durant"
+        },
+        {
+            "galar_no": "317",
+            "name": "Heatmor"
+        },
+        {
+            "galar_no": "318",
+            "name": "Helioptile"
+        },
+        {
+            "galar_no": "319",
+            "name": "Heliolisk"
+        },
+        {
+            "galar_no": "320",
+            "name": "Hawlucha"
+        },
+        {
+            "galar_no": "321",
+            "name": "Trapinch"
+        },
+        {
+            "galar_no": "322",
+            "name": "Vibrava"
+        },
+        {
+            "galar_no": "323",
+            "name": "Flygon"
+        },
+        {
+            "galar_no": "324",
+            "name": "Axew"
+        },
+        {
+            "galar_no": "325",
+            "name": "Fraxure"
+        },
+        {
+            "galar_no": "326",
+            "name": "Haxorus"
+        },
+        {
+            "galar_no": "327",
+            "name": "Yamask"
+        },
+        {
+            "galar_no": "328",
+            "name": "Runerigus"
+        },
+        {
+            "galar_no": "329",
+            "name": "Cofagrigus"
+        },
+        {
+            "galar_no": "330",
+            "name": "Honedge"
+        },
+        {
+            "galar_no": "331",
+            "name": "Doublade"
+        },
+        {
+            "galar_no": "332",
+            "name": "Aegislash"
+        },
+        {
+            "galar_no": "333",
+            "name": "Ponyta"
+        },
+        {
+            "galar_no": "334",
+            "name": "Rapidash"
+        },
+        {
+            "galar_no": "335",
+            "name": "Sinistea"
+        },
+        {
+            "galar_no": "336",
+            "name": "Polteageist"
+        },
+        {
+            "galar_no": "337",
+            "name": "Indeedee"
+        },
+        {
+            "galar_no": "338",
+            "name": "Phantump"
+        },
+        {
+            "galar_no": "339",
+            "name": "Trevenant"
+        },
+        {
+            "galar_no": "340",
+            "name": "Morelull"
+        },
+        {
+            "galar_no": "341",
+            "name": "Shiinotic"
+        },
+        {
+            "galar_no": "342",
+            "name": "Oranguru"
+        },
+        {
+            "galar_no": "343",
+            "name": "Passimian"
+        },
+        {
+            "galar_no": "344",
+            "name": "Morpeko"
+        },
+        {
+            "galar_no": "345",
+            "name": "Falinks"
+        },
+        {
+            "galar_no": "346",
+            "name": "Drampa"
+        },
+        {
+            "galar_no": "347",
+            "name": "Turtonator"
+        },
+        {
+            "galar_no": "348",
+            "name": "Togedemaru"
+        },
+        {
+            "galar_no": "349",
+            "name": "Snom"
+        },
+        {
+            "galar_no": "350",
+            "name": "Frosmoth"
+        },
+        {
+            "galar_no": "351",
+            "name": "Clobbopus"
+        },
+        {
+            "galar_no": "352",
+            "name": "Grapploct"
+        },
+        {
+            "galar_no": "353",
+            "name": "Pincurchin"
+        },
+        {
+            "galar_no": "354",
+            "name": "Mantyke"
+        },
+        {
+            "galar_no": "355",
+            "name": "Mantine"
+        },
+        {
+            "galar_no": "356",
+            "name": "Wailmer"
+        },
+        {
+            "galar_no": "357",
+            "name": "Wailord"
+        },
+        {
+            "galar_no": "358",
+            "name": "Bergmite"
+        },
+        {
+            "galar_no": "359",
+            "name": "Avalugg"
+        },
+        {
+            "galar_no": "360",
+            "name": "Dhelmise"
+        },
+        {
+            "galar_no": "361",
+            "name": "Lapras"
+        },
+        {
+            "galar_no": "362",
+            "name": "Lunatone"
+        },
+        {
+            "galar_no": "363",
+            "name": "Solrock"
+        },
+        {
+            "galar_no": "364",
+            "name": "Mime Jr."
+        },
+        {
+            "galar_no": "365",
+            "name": "Mr. Mime"
+        },
+        {
+            "galar_no": "366",
+            "name": "Mr. Rime"
+        },
+        {
+            "galar_no": "367",
+            "name": "Darumaka"
+        },
+        {
+            "galar_no": "368",
+            "name": "Darmanitan"
+        },
+        {
+            "galar_no": "369",
+            "name": "Stonjourner"
+        },
+        {
+            "galar_no": "370",
+            "name": "Eiscue"
+        },
+        {
+            "galar_no": "371",
+            "name": "Duraludon"
+        },
+        {
+            "galar_no": "372",
+            "name": "Rotom"
+        },
+        {
+            "galar_no": "373",
+            "name": "Ditto"
+        },
+        {
+            "galar_no": "374",
+            "name": "Dracozolt"
+        },
+        {
+            "galar_no": "375",
+            "name": "Arctozolt"
+        },
+        {
+            "galar_no": "376",
+            "name": "Dracovish"
+        },
+        {
+            "galar_no": "377",
+            "name": "Arctovish"
+        },
+        {
+            "galar_no": "378",
+            "name": "Charmander"
+        },
+        {
+            "galar_no": "379",
+            "name": "Charmeleon"
+        },
+        {
+            "galar_no": "380",
+            "name": "Charizard"
+        },
+        {
+            "galar_no": "381",
+            "name": "Type: Null"
+        },
+        {
+            "galar_no": "382",
+            "name": "Silvally"
+        },
+        {
+            "galar_no": "383",
+            "name": "Larvitar"
+        },
+        {
+            "galar_no": "384",
+            "name": "Pupitar"
+        },
+        {
+            "galar_no": "385",
+            "name": "Tyranitar"
+        },
+        {
+            "galar_no": "386",
+            "name": "Deino"
+        },
+        {
+            "galar_no": "387",
+            "name": "Zweilous"
+        },
+        {
+            "galar_no": "388",
+            "name": "Hydreigon"
+        },
+        {
+            "galar_no": "389",
+            "name": "Goomy"
+        },
+        {
+            "galar_no": "390",
+            "name": "Sliggoo"
+        },
+        {
+            "galar_no": "391",
+            "name": "Goodra"
+        },
+        {
+            "galar_no": "392",
+            "name": "Jangmo-o"
+        },
+        {
+            "galar_no": "393",
+            "name": "Hakamo-o"
+        },
+        {
+            "galar_no": "394",
+            "name": "Kommo-o"
+        },
+        {
+            "galar_no": "395",
+            "name": "Dreepy"
+        },
+        {
+            "galar_no": "396",
+            "name": "Drakloak"
+        },
+        {
+            "galar_no": "397",
+            "name": "Dragapult"
+        },
+        {
+            "galar_no": "398",
+            "name": "Zacian"
+        },
+        {
+            "galar_no": "399",
+            "name": "Zamazenta"
+        },
+        {
+            "galar_no": "400",
+            "name": "Eternatus"
+        }
+    ]
+}
