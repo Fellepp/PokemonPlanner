@@ -1,0 +1,58 @@
+{
+    "types": [
+        {
+            "type": "fairy"
+        },
+        {
+            "type": "steel"
+        },
+        {
+            "type": "dark"
+        },
+        {
+            "type": "dragon"
+        },
+        {
+            "type": "ghost"
+        },
+        {
+            "type": "rock"
+        },
+        {
+            "type": "bug"
+        },
+        {
+            "type": "psychic"
+        },
+        {
+            "type": "flying"
+        },
+        {
+            "type": "ground"
+        },
+        {
+            "type": "poison"
+        },
+        {
+            "type": "fight"
+        },
+        {
+            "type": "ice"
+        },
+        {
+            "type": "grass"
+        },
+        {
+            "type": "electric"
+        },
+        {
+            "type": "water"
+        },
+        {
+            "type": "fire"
+        },
+        {
+            "type": "normal"
+        }
+    ]
+}
