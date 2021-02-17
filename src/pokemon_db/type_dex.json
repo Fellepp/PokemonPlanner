@@ -1,58 +1,144 @@
 {
     "types": [
         {
-            "type": "fairy"
+            "type": "fairy",
+            "attack_se": [
+                "fighting",
+                "dragon",
+                "dark"
+            ]
         },
         {
-            "type": "steel"
+            "type": "steel",
+            "attack_se": [
+                "ice",
+                "rock",
+                "fairy"
+            ]
         },
         {
-            "type": "dark"
+            "type": "dark",
+            "attack_se": [
+                "psychic",
+                "ghost"
+            ]
         },
         {
-            "type": "dragon"
+            "type": "dragon",
+            "attack_se": [
+                "dragon"
+            ]
         },
         {
-            "type": "ghost"
+            "type": "ghost",
+            "attack_se": [
+                "psychic",
+                "ghost"
+            ]
         },
         {
-            "type": "rock"
+            "type": "rock",
+            "attack_se": [
+                "fire",
+                "ice",
+                "flying",
+                "bug"
+            ]
         },
         {
-            "type": "bug"
+            "type": "bug",
+            "attack_se": [
+                "grass",
+                "psychic",
+                "dark"
+            ]
         },
         {
-            "type": "psychic"
+            "type": "psychic",
+            "attack_se": [
+                "fighting",
+                "poison"
+            ]
         },
         {
-            "type": "flying"
+            "type": "flying",
+            "attack_se": [
+                "grass",
+                "fighting",
+                "bug"
+            ]
         },
         {
-            "type": "ground"
+            "type": "ground",
+            "attack_se": [
+                "fire",
+                "electric",
+                "poison",
+                "rock",
+                "steel"
+            ]
         },
         {
-            "type": "poison"
+            "type": "poison",
+            "attack_se": [
+                "grass",
+                "fairy"
+            ]
         },
         {
-            "type": "fight"
+            "type": "fighting",
+            "attack_se": [
+                "normal",
+                "ice",
+                "rock",
+                "dark",
+                "steel"
+            ]
         },
         {
-            "type": "ice"
+            "type": "ice",
+            "attack_se": [
+                "grass",
+                "ground",
+                "flying",
+                "dragon"
+            ]
         },
         {
-            "type": "grass"
+            "type": "grass",
+            "attack_se": [
+                "water",
+                "ground",
+                "rock"
+            ]
         },
         {
-            "type": "electric"
+            "type": "electric",
+            "attack_se": [
+                "water",
+                "flying"
+            ]
         },
         {
-            "type": "water"
+            "type": "water",
+            "attack_se": [
+                "fire",
+                "ground",
+                "rock"
+            ]
         },
         {
-            "type": "fire"
+            "type": "fire",
+            "attack_se": [
+                "grass",
+                "ice",
+                "bug",
+                "steel"
+            ]
         },
         {
-            "type": "normal"
+            "type": "normal",
+            "attack_se": []
         }
     ]
 }
