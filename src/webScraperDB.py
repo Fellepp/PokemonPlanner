@@ -37,7 +37,7 @@ def categories(type_data):
     DEFENSE_LE = True
     DEFENSE_NE = True
 
-    #print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
+    # print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
 
     if "moves are super-effective" not in str(type_data):
         ATTACK_SE = False
@@ -52,26 +52,49 @@ def categories(type_data):
     if "types have no effect" not in str(type_data):
         DEFENSE_NE = False
 
-    #print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
+    # print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
 
 
-def typeScraper(url):
-    type_dex = {'types': []}
-    for poketype in all_types:
-        temp_url = url.format(poketype)
-        # print("Retrieving data for ", poketype, " types from url: ", temp_url, "\n")
-        # temp_url = url.format("fairy")
-        data = requests.get(temp_url)
-        soup = bs4.BeautifulSoup(data.text, 'html.parser')
-        typeSoup = soup.find_all('p', class_='type-fx-list')
+def matrixScraper(url):
+    data = requests.get(url)
+    soup = bs4.BeautifulSoup(data.text, 'html.parser')
+    typeSoup = soup.find_all('td')
 
-        typeSoupCategories = soup.find_all('span', class_='icon-string')
-        categories(typeSoupCategories)
+    typeMatrix = [[0 for i in range(len(all_types))] for j in range(len(all_types))]
 
-        type_dex['types'].append(typeParse(typeSoup, poketype))
-        # print(poketype, len(typeSoup[0].contents))
+    rowCount = 0
+    for index, pokeType in enumerate(typeSoup):
+        print(rowCount, index, index%18)
+        if (index % 18) == 0 and index != 0:
+            rowCount += 1
+        if "normal effectiveness" in str(pokeType):
+            typeMatrix[rowCount][(index % 18)] = 1
+        elif "not very effective" in str(pokeType):
+            typeMatrix[rowCount][(index % 18)] = 0.5
+        elif "super-effective" in str(pokeType):
+            typeMatrix[rowCount][(index % 18)] = 2
+        elif "no effect" in str(pokeType):
+            typeMatrix[rowCount][(index % 18)] = 0
 
-    return type_dex
+    def typeScraper(url):
+
+        type_dex = {'types': []}
+
+        for poketype in all_types:
+            temp_url = url.format(poketype)
+            # print("Retrieving data for ", poketype, " types from url: ", temp_url, "\n")
+            # temp_url = url.format("fairy")
+            data = requests.get(temp_url)
+            soup = bs4.BeautifulSoup(data.text, 'html.parser')
+            typeSoup = soup.find_all('p', class_='type-fx-list')
+
+            typeSoupCategories = soup.find_all('span', class_='icon-string')
+            categories(typeSoupCategories)
+
+            type_dex['types'].append(typeParse(typeSoup, poketype))
+            # print(poketype, len(typeSoup[0].contents))
+
+        return type_dex
 
     # print(typeSoup[2].contents[1].get('href').split('/')[-1])
 
@@ -144,5 +167,7 @@ def saveToFileTypes(type_dex: dict):
 
 # print(pokemonScraper(galar_dex_url))
 # saveToFile(pokemonScraper(galar_dex_url))
-saveToFileTypes(typeScraper(type_url))
-#print(typeScraper(type_url))
+# saveToFileTypes(typeScraper(type_url))
+# print(typeScraper(type_url))
+
+print(matrixScraper(url="https://pokemondb.net/type"))
