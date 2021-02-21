@@ -14,45 +14,6 @@ all_types = [
     "ice", "grass", "electric",
     "water", "fire", "normal"
 ]
-"""ATTACK_SE = True
-ATTACK_LE = True
-ATTACK_NE = True
-DEFENSE_SE = True
-DEFENSE_LE = True
-DEFENSE_NE = True"""
-
-
-def categories(type_data):
-    global ATTACK_SE
-    global ATTACK_LE
-    global ATTACK_NE
-    global DEFENSE_SE
-    global DEFENSE_LE
-    global DEFENSE_NE
-
-    ATTACK_SE = True
-    ATTACK_LE = True
-    ATTACK_NE = True
-    DEFENSE_SE = True
-    DEFENSE_LE = True
-    DEFENSE_NE = True
-
-    # print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
-
-    if "moves are super-effective" not in str(type_data):
-        ATTACK_SE = False
-    if "moves are not very" not in str(type_data):
-        ATTACK_LE = False
-    if "moves have no effect on" not in str(type_data):
-        ATTACK_NE = False
-    if "types are super-effective" not in str(type_data):
-        DEFENSE_SE = False
-    if "types are not very" not in str(type_data):
-        DEFENSE_LE = False
-    if "types have no effect" not in str(type_data):
-        DEFENSE_NE = False
-
-    # print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
 
 
 def matrixScraper(url):
@@ -64,7 +25,7 @@ def matrixScraper(url):
 
     rowCount = 0
     for index, pokeType in enumerate(typeSoup):
-        print(rowCount, index, index%18)
+        print(rowCount, index, index % 18)
         if (index % 18) == 0 and index != 0:
             rowCount += 1
         if "normal effectiveness" in str(pokeType):
@@ -88,9 +49,6 @@ def matrixScraper(url):
             soup = bs4.BeautifulSoup(data.text, 'html.parser')
             typeSoup = soup.find_all('p', class_='type-fx-list')
 
-            typeSoupCategories = soup.find_all('span', class_='icon-string')
-            categories(typeSoupCategories)
-
             type_dex['types'].append(typeParse(typeSoup, poketype))
             # print(poketype, len(typeSoup[0].contents))
 
@@ -108,15 +66,6 @@ def typeParse(type_data, poketype):
     # typeSoup[0].contents[1].get('href').split('/')[-1]
 
     typeparser['type'] = poketype
-    print(ATTACK_SE, ATTACK_LE, ATTACK_NE, DEFENSE_SE, DEFENSE_LE, DEFENSE_NE)
-    for i in range(1, len(type_data[0].contents) - 1, 2):
-        # print(poketype, type_data[0].contents[i].get('href').split('/')[-1])
-        attack_se.append(type_data[0].contents[i].get('href').split('/')[-1])
-    if ATTACK_SE:
-        typeparser["attack_se"] = attack_se
-    else:
-        typeparser["attack_se"] = []
-    # print(typeparser)
     return typeparser
 
 
