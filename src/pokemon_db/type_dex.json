@@ -1,144 +1,275 @@
 {
     "types": [
         {
-            "type": "fairy",
-            "attack_se": [
-                "fighting",
-                "dragon",
-                "dark"
-            ]
-        },
-        {
-            "type": "steel",
-            "attack_se": [
-                "ice",
-                "rock",
-                "fairy"
-            ]
-        },
-        {
-            "type": "dark",
-            "attack_se": [
-                "psychic",
-                "ghost"
-            ]
-        },
-        {
-            "type": "dragon",
-            "attack_se": [
-                "dragon"
-            ]
-        },
-        {
-            "type": "ghost",
-            "attack_se": [
-                "psychic",
-                "ghost"
-            ]
-        },
-        {
-            "type": "rock",
-            "attack_se": [
-                "fire",
-                "ice",
-                "flying",
-                "bug"
-            ]
-        },
-        {
-            "type": "bug",
-            "attack_se": [
-                "grass",
-                "psychic",
-                "dark"
-            ]
-        },
-        {
-            "type": "psychic",
-            "attack_se": [
-                "fighting",
-                "poison"
-            ]
-        },
-        {
-            "type": "flying",
-            "attack_se": [
-                "grass",
-                "fighting",
-                "bug"
-            ]
-        },
-        {
-            "type": "ground",
-            "attack_se": [
-                "fire",
-                "electric",
-                "poison",
+            "type": "normal",
+            "super-effective": [],
+            "not very effective": [
                 "rock",
                 "steel"
+            ],
+            "not effective": [
+                "ghost"
             ]
         },
         {
-            "type": "poison",
-            "attack_se": [
+            "type": "fire",
+            "super-effective": [
                 "grass",
-                "fairy"
+                "ice",
+                "bug",
+                "steel"
+            ],
+            "not very effective": [
+                "fire",
+                "water",
+                "rock",
+                "dragon"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "water",
+            "super-effective": [
+                "fire",
+                "ground",
+                "rock"
+            ],
+            "not very effective": [
+                "water",
+                "grass",
+                "dragon"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "electric",
+            "super-effective": [
+                "water",
+                "flying"
+            ],
+            "not very effective": [
+                "electric",
+                "grass",
+                "dragon"
+            ],
+            "not effective": [
+                "ground"
             ]
+        },
+        {
+            "type": "grass",
+            "super-effective": [
+                "water",
+                "ground",
+                "rock"
+            ],
+            "not very effective": [
+                "fire",
+                "grass",
+                "poison",
+                "flying",
+                "bug",
+                "dragon",
+                "steel"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "ice",
+            "super-effective": [
+                "grass",
+                "ground",
+                "flying",
+                "dragon"
+            ],
+            "not very effective": [
+                "fire",
+                "water",
+                "ice",
+                "steel"
+            ],
+            "not effective": []
         },
         {
             "type": "fighting",
-            "attack_se": [
+            "super-effective": [
                 "normal",
                 "ice",
                 "rock",
                 "dark",
                 "steel"
-            ]
-        },
-        {
-            "type": "ice",
-            "attack_se": [
-                "grass",
-                "ground",
+            ],
+            "not very effective": [
+                "poison",
                 "flying",
-                "dragon"
-            ]
-        },
-        {
-            "type": "grass",
-            "attack_se": [
-                "water",
-                "ground",
-                "rock"
-            ]
-        },
-        {
-            "type": "electric",
-            "attack_se": [
-                "water",
-                "flying"
-            ]
-        },
-        {
-            "type": "water",
-            "attack_se": [
-                "fire",
-                "ground",
-                "rock"
-            ]
-        },
-        {
-            "type": "fire",
-            "attack_se": [
-                "grass",
-                "ice",
+                "psychic",
                 "bug",
+                "fairy"
+            ],
+            "not effective": [
+                "ghost"
+            ]
+        },
+        {
+            "type": "poison",
+            "super-effective": [
+                "grass",
+                "fairy"
+            ],
+            "not very effective": [
+                "poison",
+                "ground",
+                "rock",
+                "ghost"
+            ],
+            "not effective": [
                 "steel"
             ]
         },
         {
-            "type": "normal",
-            "attack_se": []
+            "type": "ground",
+            "super-effective": [
+                "fire",
+                "electric",
+                "poison",
+                "rock",
+                "steel"
+            ],
+            "not very effective": [
+                "grass",
+                "bug"
+            ],
+            "not effective": [
+                "flying"
+            ]
+        },
+        {
+            "type": "flying",
+            "super-effective": [
+                "grass",
+                "fighting",
+                "bug"
+            ],
+            "not very effective": [
+                "electric",
+                "rock",
+                "steel"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "psychic",
+            "super-effective": [
+                "fighting",
+                "poison"
+            ],
+            "not very effective": [
+                "psychic",
+                "steel"
+            ],
+            "not effective": [
+                "dark"
+            ]
+        },
+        {
+            "type": "bug",
+            "super-effective": [
+                "grass",
+                "psychic",
+                "dark"
+            ],
+            "not very effective": [
+                "fire",
+                "fighting",
+                "poison",
+                "flying",
+                "ghost",
+                "steel",
+                "fairy"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "rock",
+            "super-effective": [
+                "fire",
+                "ice",
+                "flying",
+                "bug"
+            ],
+            "not very effective": [
+                "fighting",
+                "ground",
+                "steel"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "ghost",
+            "super-effective": [
+                "psychic",
+                "ghost"
+            ],
+            "not very effective": [
+                "dark"
+            ],
+            "not effective": [
+                "normal"
+            ]
+        },
+        {
+            "type": "dragon",
+            "super-effective": [
+                "dragon"
+            ],
+            "not very effective": [
+                "steel"
+            ],
+            "not effective": [
+                "fairy"
+            ]
+        },
+        {
+            "type": "dark",
+            "super-effective": [
+                "psychic",
+                "ghost"
+            ],
+            "not very effective": [
+                "fighting",
+                "dark",
+                "fairy"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "steel",
+            "super-effective": [
+                "ice",
+                "rock",
+                "fairy"
+            ],
+            "not very effective": [
+                "fire",
+                "water",
+                "electric",
+                "steel"
+            ],
+            "not effective": []
+        },
+        {
+            "type": "fairy",
+            "super-effective": [
+                "fighting",
+                "dragon",
+                "dark"
+            ],
+            "not very effective": [
+                "fire",
+                "poison",
+                "steel"
+            ],
+            "not effective": []
         }
     ]
 }

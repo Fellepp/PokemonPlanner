@@ -25,7 +25,6 @@ def matrixScraper(url):
 
     rowCount = 0
     for index, pokeType in enumerate(typeSoup):
-        print(rowCount, index, index % 18)
         if (index % 18) == 0 and index != 0:
             rowCount += 1
         if "normal effectiveness" in str(pokeType):
@@ -37,7 +36,47 @@ def matrixScraper(url):
         elif "no effect" in str(pokeType):
             typeMatrix[rowCount][(index % 18)] = 0
 
-    def typeScraper(url):
+    return typeMatrix
+
+
+def matrixTranslator(typeMatrix):
+    typedict = {'types': []}
+    for index, row in enumerate(typeMatrix):
+        attackingPlace = len(all_types) - 1 - index
+        attackingType = all_types[attackingPlace]
+        attack_se = []
+        attack_le = []
+        attack_ne = []
+
+        tmpdict = {}
+        tmpdict['type'] = attackingType
+
+
+        print(attackingType, row)
+        for indexx, poketype in enumerate(row):
+            defendingPlace = len(all_types) - 1 - indexx
+            defendingType = all_types[defendingPlace]
+            print(attackingType, defendingType)
+
+            if poketype == 0.5:
+                attack_le.append(defendingType)
+                print(attackingType, "is not very effective against", defendingType)
+            elif poketype == 2:
+                attack_se.append(defendingType)
+                print(attackingType, "is super-effective against", defendingType)
+            if poketype == 0:
+                attack_ne.append(defendingType)
+                print(attackingType, "is not effective against", defendingType)
+        tmpdict['super-effective'] = attack_se
+        tmpdict['not very effective'] = attack_le
+        tmpdict['not effective'] = attack_ne
+        typedict['types'].append(tmpdict)
+    return typedict
+
+    """
+    NO LONGER IN USE
+    
+        def typeScraper(url): 
 
         type_dex = {'types': []}
 
@@ -66,7 +105,7 @@ def typeParse(type_data, poketype):
     # typeSoup[0].contents[1].get('href').split('/')[-1]
 
     typeparser['type'] = poketype
-    return typeparser
+    return typeparser"""
 
 
 def pokemonScraper(url):
@@ -106,17 +145,21 @@ def saveToFile(galar_dex: dict):
     with open('./pokemon_db/galar_dex.json', 'w') as pokemon_json:
         json.dump(galar_dex, pokemon_json, indent=4, sort_keys=True)
 
-
-def saveToFileTypes(type_dex: dict):
+def saveTypes(type_dict: dict):
     pathlib.Path("./pokemon_db").mkdir(exist_ok=True)
 
     with open('./pokemon_db/type_dex.json', 'w') as type_json:
-        json.dump(type_dex, type_json, indent=4, sort_keys=False)
+        json.dump(type_dict, type_json, indent=4, sort_keys=False)
 
+"""def saveToFileTypes(type_dex: dict):
+    pathlib.Path("./pokemon_db").mkdir(exist_ok=True)
+
+    with open('./pokemon_db/type_dex.json', 'w') as type_json:
+        json.dump(type_dex, type_json, indent=4, sort_keys=False)"""
 
 # print(pokemonScraper(galar_dex_url))
 # saveToFile(pokemonScraper(galar_dex_url))
 # saveToFileTypes(typeScraper(type_url))
 # print(typeScraper(type_url))
 
-print(matrixScraper(url="https://pokemondb.net/type"))
+saveTypes(matrixTranslator(matrixScraper(url="https://pokemondb.net/type")))
