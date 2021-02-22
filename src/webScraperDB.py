@@ -40,7 +40,29 @@ def matrixScraper(url):
 
 
 def matrixTranslator(typeMatrix):
-    typedict = {'types': []}
+    typedict = {'types': {}}
+    ase = 'attack_super-effective'
+    ale = 'attack_not very effective'
+    ane = 'attack_not effective'
+    dse = 'defend_super-effective'
+    dle = 'defend_not very effective'
+    dne = 'defend_not effective'
+
+    for pokeType in all_types:
+        tmpdictX = {}
+        # tmpdict = {}
+        tmpdictX[ase] = []
+        tmpdictX[ale] = []
+        tmpdictX[ane] = []
+        tmpdictX[dse] = []
+        tmpdictX[dle] = []
+        tmpdictX[dne] = []
+        # tmpdictX[pokeType] = tmpdict
+        # print(tmpdictX)
+        typedict['types'][pokeType] = tmpdictX
+
+    print(typedict)
+
     for index, row in enumerate(typeMatrix):
         attackingPlace = len(all_types) - 1 - index
         attackingType = all_types[attackingPlace]
@@ -51,26 +73,23 @@ def matrixTranslator(typeMatrix):
         tmpdict = {}
         tmpdict['type'] = attackingType
 
-
-        print(attackingType, row)
         for indexx, poketype in enumerate(row):
             defendingPlace = len(all_types) - 1 - indexx
             defendingType = all_types[defendingPlace]
             print(attackingType, defendingType)
 
             if poketype == 0.5:
-                attack_le.append(defendingType)
+                typedict['types'][attackingType][ale].append(defendingType)
+                typedict['types'][defendingType][dle].append(attackingType)
                 print(attackingType, "is not very effective against", defendingType)
             elif poketype == 2:
-                attack_se.append(defendingType)
+                typedict['types'][defendingType][dse].append(attackingType)
+                typedict['types'][attackingType][ase].append(defendingType)
                 print(attackingType, "is super-effective against", defendingType)
             if poketype == 0:
-                attack_ne.append(defendingType)
+                typedict['types'][defendingType][dne].append(attackingType)
+                typedict['types'][attackingType][ane].append(defendingType)
                 print(attackingType, "is not effective against", defendingType)
-        tmpdict['super-effective'] = attack_se
-        tmpdict['not very effective'] = attack_le
-        tmpdict['not effective'] = attack_ne
-        typedict['types'].append(tmpdict)
     return typedict
 
     """
@@ -145,11 +164,13 @@ def saveToFile(galar_dex: dict):
     with open('./pokemon_db/galar_dex.json', 'w') as pokemon_json:
         json.dump(galar_dex, pokemon_json, indent=4, sort_keys=True)
 
+
 def saveTypes(type_dict: dict):
     pathlib.Path("./pokemon_db").mkdir(exist_ok=True)
 
     with open('./pokemon_db/type_dex.json', 'w') as type_json:
         json.dump(type_dict, type_json, indent=4, sort_keys=False)
+
 
 """def saveToFileTypes(type_dex: dict):
     pathlib.Path("./pokemon_db").mkdir(exist_ok=True)
