@@ -50,15 +50,12 @@ def matrixTranslator(typeMatrix):
 
     for pokeType in all_types:
         tmpdictX = {}
-        # tmpdict = {}
         tmpdictX[ase] = []
         tmpdictX[ale] = []
         tmpdictX[ane] = []
         tmpdictX[dse] = []
         tmpdictX[dle] = []
         tmpdictX[dne] = []
-        # tmpdictX[pokeType] = tmpdict
-        # print(tmpdictX)
         typedict['types'][pokeType] = tmpdictX
 
     print(typedict)
@@ -127,26 +124,51 @@ def typeParse(type_data, poketype):
     return typeparser"""
 
 
-def pokemonScraper(url):
+"""def pokemonScraper(url):
     data = requests.get(url)
     soup = bs4.BeautifulSoup(data.text, 'html.parser')
     pokeSoup = soup.find_all('td', class_='fooinfo')
-    galar_dex = {'pokemon': []}
+    galar_dex = {'pokemon': {}}
 
     for i in range(0, 4400):
         if (i % 11) == 0:
-            galar_dex['pokemon'].append(pokeParse(pokeSoup[i:i + 11]))
+            #galar_dex['pokemon'].append(pokeParse(pokeSoup[i:i + 11]))
+            galar_dex['pokemon'] = pokeParse(pokeSoup[i:i + 11])
+        else:
+            continue
+    return galar_dex"""
+
+
+def pokeScraper(url):
+    data = requests.get(url)
+    soup = bs4.BeautifulSoup(data.text, 'html.parser')
+    pokeSoup = soup.find_all('td', class_='fooinfo')
+    galar_dex = {'pokemon': {}}
+
+    for i in range(0, 4400):
+        if (i % 11) == 0:
+            tmpdict = {}
+            tmpdict['name'] = pokeSoup[i:i + 11][2].contents[1].contents[0].strip()
+            tmpdict['type'] = getTypes(pokeSoup[i:i + 11])
+
+            gal_nr = pokeSoup[i:i + 11][0].contents[0].strip()[1:]
+            galar_dex['pokemon'][gal_nr] = tmpdict
         else:
             continue
     return galar_dex
 
 
 def pokeParse(pokemon_data):
-    pokeparser = {}
+    galar_dex = {'pokemon': {}}
 
-    pokeparser['galar_no'] = pokemon_data[0].contents[0].strip()[1:]
-    pokeparser['name'] = pokemon_data[2].contents[1].contents[0].strip()
-    pokeparser['type'] = getTypes(pokemon_data)
+    galar_dex['pokemon']['galar_no'] = pokemon_data[0].contents[0].strip()[1:]
+
+    pokeparser = {}
+    thisPokemon = pokemon_data[0].contents[0].strip()[1:]
+    pokeparser['galar_no'] = thisPokemon
+
+    pokeparser[thisPokemon]['name'] = pokemon_data[2].contents[1].contents[0].strip()
+    pokeparser[thisPokemon]['type'] = getTypes(pokemon_data)
     return pokeparser
 
 
@@ -183,4 +205,5 @@ def saveTypes(type_dict: dict):
 # saveToFileTypes(typeScraper(type_url))
 # print(typeScraper(type_url))
 
-saveTypes(matrixTranslator(matrixScraper(url="https://pokemondb.net/type")))
+saveToFile(pokeScraper(galar_dex_url))
+# saveTypes(matrixTranslator(matrixScraper(url="https://pokemondb.net/type")))

@@ -1,3010 +1,2610 @@
 {
-    "pokemon": [
-        {
-            "galar_no": "001",
+    "pokemon": {
+        "001": {
             "name": "Grookey",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "002",
+        "002": {
             "name": "Thwackey",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "003",
+        "003": {
             "name": "Rillaboom",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "004",
+        "004": {
             "name": "Scorbunny",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "005",
+        "005": {
             "name": "Raboot",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "006",
+        "006": {
             "name": "Cinderace",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "007",
+        "007": {
             "name": "Sobble",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "008",
+        "008": {
             "name": "Drizzile",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "009",
+        "009": {
             "name": "Inteleon",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "010",
+        "010": {
             "name": "Blipbug",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "011",
+        "011": {
             "name": "Dottler",
             "type": [
                 "bug",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "012",
+        "012": {
             "name": "Orbeetle",
             "type": [
                 "bug",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "013",
+        "013": {
             "name": "Caterpie",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "014",
+        "014": {
             "name": "Metapod",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "015",
+        "015": {
             "name": "Butterfree",
             "type": [
                 "bug",
                 "flying"
             ]
         },
-        {
-            "galar_no": "016",
+        "016": {
             "name": "Grubbin",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "017",
+        "017": {
             "name": "Charjabug",
             "type": [
                 "bug",
                 "electric"
             ]
         },
-        {
-            "galar_no": "018",
+        "018": {
             "name": "Vikavolt",
             "type": [
                 "bug",
                 "electric"
             ]
         },
-        {
-            "galar_no": "019",
+        "019": {
             "name": "Hoothoot",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "020",
+        "020": {
             "name": "Noctowl",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "021",
+        "021": {
             "name": "Rookidee",
             "type": [
                 "flying"
             ]
         },
-        {
-            "galar_no": "022",
+        "022": {
             "name": "Corvisquire",
             "type": [
                 "flying"
             ]
         },
-        {
-            "galar_no": "023",
+        "023": {
             "name": "Corviknight",
             "type": [
                 "flying",
                 "steel"
             ]
         },
-        {
-            "galar_no": "024",
+        "024": {
             "name": "Skwovet",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "025",
+        "025": {
             "name": "Greedent",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "026",
+        "026": {
             "name": "Pidove",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "027",
+        "027": {
             "name": "Tranquill",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "028",
+        "028": {
             "name": "Unfezant",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "029",
+        "029": {
             "name": "Nickit",
             "type": [
                 "dark"
             ]
         },
-        {
-            "galar_no": "030",
+        "030": {
             "name": "Thievul",
             "type": [
                 "dark"
             ]
         },
-        {
-            "galar_no": "031",
+        "031": {
             "name": "Zigzagoon",
             "type": [
                 "dark",
                 "normal"
             ]
         },
-        {
-            "galar_no": "032",
+        "032": {
             "name": "Linoone",
             "type": [
                 "dark",
                 "normal"
             ]
         },
-        {
-            "galar_no": "033",
+        "033": {
             "name": "Obstagoon",
             "type": [
                 "dark",
                 "normal"
             ]
         },
-        {
-            "galar_no": "034",
+        "034": {
             "name": "Wooloo",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "035",
+        "035": {
             "name": "Dubwool",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "036",
+        "036": {
             "name": "Lotad",
             "type": [
                 "water",
                 "grass"
             ]
         },
-        {
-            "galar_no": "037",
+        "037": {
             "name": "Lombre",
             "type": [
                 "water",
                 "grass"
             ]
         },
-        {
-            "galar_no": "038",
+        "038": {
             "name": "Ludicolo",
             "type": [
                 "water",
                 "grass"
             ]
         },
-        {
-            "galar_no": "039",
+        "039": {
             "name": "Seedot",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "040",
+        "040": {
             "name": "Nuzleaf",
             "type": [
                 "grass",
                 "dark"
             ]
         },
-        {
-            "galar_no": "041",
+        "041": {
             "name": "Shiftry",
             "type": [
                 "grass",
                 "dark"
             ]
         },
-        {
-            "galar_no": "042",
+        "042": {
             "name": "Chewtle",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "043",
+        "043": {
             "name": "Drednaw",
             "type": [
                 "water",
                 "rock"
             ]
         },
-        {
-            "galar_no": "044",
+        "044": {
             "name": "Purrloin",
             "type": [
                 "dark"
             ]
         },
-        {
-            "galar_no": "045",
+        "045": {
             "name": "Liepard",
             "type": [
                 "dark"
             ]
         },
-        {
-            "galar_no": "046",
+        "046": {
             "name": "Yamper",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "047",
+        "047": {
             "name": "Boltund",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "048",
+        "048": {
             "name": "Bunnelby",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "049",
+        "049": {
             "name": "Diggersby",
             "type": [
                 "normal",
                 "ground"
             ]
         },
-        {
-            "galar_no": "050",
+        "050": {
             "name": "Minccino",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "051",
+        "051": {
             "name": "Cinccino",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "052",
+        "052": {
             "name": "Bounsweet",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "053",
+        "053": {
             "name": "Steenee",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "054",
+        "054": {
             "name": "Tsareena",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "055",
+        "055": {
             "name": "Oddish",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "056",
+        "056": {
             "name": "Gloom",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "057",
+        "057": {
             "name": "Vileplume",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "058",
+        "058": {
             "name": "Bellossom",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "059",
+        "059": {
             "name": "Budew",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "060",
+        "060": {
             "name": "Roselia",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "061",
+        "061": {
             "name": "Roserade",
             "type": [
                 "grass",
                 "poison"
             ]
         },
-        {
-            "galar_no": "062",
+        "062": {
             "name": "Wingull",
             "type": [
                 "water",
                 "flying"
             ]
         },
-        {
-            "galar_no": "063",
+        "063": {
             "name": "Pelipper",
             "type": [
                 "water",
                 "flying"
             ]
         },
-        {
-            "galar_no": "064",
+        "064": {
             "name": "Joltik",
             "type": [
                 "bug",
                 "electric"
             ]
         },
-        {
-            "galar_no": "065",
+        "065": {
             "name": "Galvantula",
             "type": [
                 "bug",
                 "electric"
             ]
         },
-        {
-            "galar_no": "066",
+        "066": {
             "name": "Electrike",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "067",
+        "067": {
             "name": "Manectric",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "068",
+        "068": {
             "name": "Vulpix",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "069",
+        "069": {
             "name": "Ninetales",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "070",
+        "070": {
             "name": "Growlithe",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "071",
+        "071": {
             "name": "Arcanine",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "072",
+        "072": {
             "name": "Vanillite",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "073",
+        "073": {
             "name": "Vanillish",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "074",
+        "074": {
             "name": "Vanilluxe",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "075",
+        "075": {
             "name": "Swinub",
             "type": [
                 "ice",
                 "ground"
             ]
         },
-        {
-            "galar_no": "076",
+        "076": {
             "name": "Piloswine",
             "type": [
                 "ice",
                 "ground"
             ]
         },
-        {
-            "galar_no": "077",
+        "077": {
             "name": "Mamoswine",
             "type": [
                 "ice",
                 "ground"
             ]
         },
-        {
-            "galar_no": "078",
+        "078": {
             "name": "Delibird",
             "type": [
                 "ice",
                 "flying"
             ]
         },
-        {
-            "galar_no": "079",
+        "079": {
             "name": "Snorunt",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "080",
+        "080": {
             "name": "Glalie",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "081",
+        "081": {
             "name": "Froslass",
             "type": [
                 "ice",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "082",
+        "082": {
             "name": "Baltoy",
             "type": [
                 "ground",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "083",
+        "083": {
             "name": "Claydol",
             "type": [
                 "ground",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "084",
+        "084": {
             "name": "Mudbray",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "085",
+        "085": {
             "name": "Mudsdale",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "086",
+        "086": {
             "name": "Dwebble",
             "type": [
                 "bug",
                 "rock"
             ]
         },
-        {
-            "galar_no": "087",
+        "087": {
             "name": "Crustle",
             "type": [
                 "bug",
                 "rock"
             ]
         },
-        {
-            "galar_no": "088",
+        "088": {
             "name": "Golett",
             "type": [
                 "ground",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "089",
+        "089": {
             "name": "Golurk",
             "type": [
                 "ground",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "090",
+        "090": {
             "name": "Munna",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "091",
+        "091": {
             "name": "Musharna",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "092",
+        "092": {
             "name": "Natu",
             "type": [
                 "psychic",
                 "flying"
             ]
         },
-        {
-            "galar_no": "093",
+        "093": {
             "name": "Xatu",
             "type": [
                 "psychic",
                 "flying"
             ]
         },
-        {
-            "galar_no": "094",
+        "094": {
             "name": "Stufful",
             "type": [
                 "normal",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "095",
+        "095": {
             "name": "Bewear",
             "type": [
                 "normal",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "096",
+        "096": {
             "name": "Snover",
             "type": [
                 "grass",
                 "ice"
             ]
         },
-        {
-            "galar_no": "097",
+        "097": {
             "name": "Abomasnow",
             "type": [
                 "grass",
                 "ice"
             ]
         },
-        {
-            "galar_no": "098",
+        "098": {
             "name": "Krabby",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "099",
+        "099": {
             "name": "Kingler",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "100",
+        "100": {
             "name": "Wooper",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "101",
+        "101": {
             "name": "Quagsire",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "102",
+        "102": {
             "name": "Corphish",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "103",
+        "103": {
             "name": "Crawdaunt",
             "type": [
                 "water",
                 "dark"
             ]
         },
-        {
-            "galar_no": "104",
+        "104": {
             "name": "Nincada",
             "type": [
                 "bug",
                 "ground"
             ]
         },
-        {
-            "galar_no": "105",
+        "105": {
             "name": "Ninjask",
             "type": [
                 "bug",
                 "flying"
             ]
         },
-        {
-            "galar_no": "106",
+        "106": {
             "name": "Shedinja",
             "type": [
                 "bug",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "107",
+        "107": {
             "name": "Tyrogue",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "108",
+        "108": {
             "name": "Hitmonlee",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "109",
+        "109": {
             "name": "Hitmonchan",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "110",
+        "110": {
             "name": "Hitmontop",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "111",
+        "111": {
             "name": "Pancham",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "112",
+        "112": {
             "name": "Pangoro",
             "type": [
                 "fighting",
                 "dark"
             ]
         },
-        {
-            "galar_no": "113",
+        "113": {
             "name": "Klink",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "114",
+        "114": {
             "name": "Klang",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "115",
+        "115": {
             "name": "Klinklang",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "116",
+        "116": {
             "name": "Combee",
             "type": [
                 "bug",
                 "flying"
             ]
         },
-        {
-            "galar_no": "117",
+        "117": {
             "name": "Vespiquen",
             "type": [
                 "bug",
                 "flying"
             ]
         },
-        {
-            "galar_no": "118",
+        "118": {
             "name": "Bronzor",
             "type": [
                 "steel",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "119",
+        "119": {
             "name": "Bronzong",
             "type": [
                 "steel",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "120",
+        "120": {
             "name": "Ralts",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "121",
+        "121": {
             "name": "Kirlia",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "122",
+        "122": {
             "name": "Gardevoir",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "123",
+        "123": {
             "name": "Gallade",
             "type": [
                 "psychic",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "124",
+        "124": {
             "name": "Drifloon",
             "type": [
                 "ghost",
                 "flying"
             ]
         },
-        {
-            "galar_no": "125",
+        "125": {
             "name": "Drifblim",
             "type": [
                 "ghost",
                 "flying"
             ]
         },
-        {
-            "galar_no": "126",
+        "126": {
             "name": "Gossifleur",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "127",
+        "127": {
             "name": "Eldegoss",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "128",
+        "128": {
             "name": "Cherubi",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "129",
+        "129": {
             "name": "Cherrim",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "130",
+        "130": {
             "name": "Stunky",
             "type": [
                 "poison",
                 "dark"
             ]
         },
-        {
-            "galar_no": "131",
+        "131": {
             "name": "Skuntank",
             "type": [
                 "poison",
                 "dark"
             ]
         },
-        {
-            "galar_no": "132",
+        "132": {
             "name": "Tympole",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "133",
+        "133": {
             "name": "Palpitoad",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "134",
+        "134": {
             "name": "Seismitoad",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "135",
+        "135": {
             "name": "Duskull",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "136",
+        "136": {
             "name": "Dusclops",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "137",
+        "137": {
             "name": "Dusknoir",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "138",
+        "138": {
             "name": "Machop",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "139",
+        "139": {
             "name": "Machoke",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "140",
+        "140": {
             "name": "Machamp",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "141",
+        "141": {
             "name": "Gastly",
             "type": [
                 "ghost",
                 "poison"
             ]
         },
-        {
-            "galar_no": "142",
+        "142": {
             "name": "Haunter",
             "type": [
                 "ghost",
                 "poison"
             ]
         },
-        {
-            "galar_no": "143",
+        "143": {
             "name": "Gengar",
             "type": [
                 "ghost",
                 "poison"
             ]
         },
-        {
-            "galar_no": "144",
+        "144": {
             "name": "Magikarp",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "145",
+        "145": {
             "name": "Gyarados",
             "type": [
                 "water",
                 "flying"
             ]
         },
-        {
-            "galar_no": "146",
+        "146": {
             "name": "Goldeen",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "147",
+        "147": {
             "name": "Seaking",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "148",
+        "148": {
             "name": "Remoraid",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "149",
+        "149": {
             "name": "Octillery",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "150",
+        "150": {
             "name": "Shellder",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "151",
+        "151": {
             "name": "Cloyster",
             "type": [
                 "water",
                 "ice"
             ]
         },
-        {
-            "galar_no": "152",
+        "152": {
             "name": "Feebas",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "153",
+        "153": {
             "name": "Milotic",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "154",
+        "154": {
             "name": "Basculin",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "155",
+        "155": {
             "name": "Wishiwashi",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "156",
+        "156": {
             "name": "Pyukumuku",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "157",
+        "157": {
             "name": "Trubbish",
             "type": [
                 "poison"
             ]
         },
-        {
-            "galar_no": "158",
+        "158": {
             "name": "Garbodor",
             "type": [
                 "poison"
             ]
         },
-        {
-            "galar_no": "159",
+        "159": {
             "name": "Sizzlipede",
             "type": [
                 "fire",
                 "bug"
             ]
         },
-        {
-            "galar_no": "160",
+        "160": {
             "name": "Centiskorch",
             "type": [
                 "fire",
                 "bug"
             ]
         },
-        {
-            "galar_no": "161",
+        "161": {
             "name": "Rolycoly",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "162",
+        "162": {
             "name": "Carkol",
             "type": [
                 "rock",
                 "fire"
             ]
         },
-        {
-            "galar_no": "163",
+        "163": {
             "name": "Coalossal",
             "type": [
                 "rock",
                 "fire"
             ]
         },
-        {
-            "galar_no": "164",
+        "164": {
             "name": "Diglett",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "165",
+        "165": {
             "name": "Dugtrio",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "166",
+        "166": {
             "name": "Drilbur",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "167",
+        "167": {
             "name": "Excadrill",
             "type": [
                 "ground",
                 "steel"
             ]
         },
-        {
-            "galar_no": "168",
+        "168": {
             "name": "Roggenrola",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "169",
+        "169": {
             "name": "Boldore",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "170",
+        "170": {
             "name": "Gigalith",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "171",
+        "171": {
             "name": "Timburr",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "172",
+        "172": {
             "name": "Gurdurr",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "173",
+        "173": {
             "name": "Conkeldurr",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "174",
+        "174": {
             "name": "Woobat",
             "type": [
                 "psychic",
                 "flying"
             ]
         },
-        {
-            "galar_no": "175",
+        "175": {
             "name": "Swoobat",
             "type": [
                 "psychic",
                 "flying"
             ]
         },
-        {
-            "galar_no": "176",
+        "176": {
             "name": "Noibat",
             "type": [
                 "flying",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "177",
+        "177": {
             "name": "Noivern",
             "type": [
                 "flying",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "178",
+        "178": {
             "name": "Onix",
             "type": [
                 "rock",
                 "ground"
             ]
         },
-        {
-            "galar_no": "179",
+        "179": {
             "name": "Steelix",
             "type": [
                 "steel",
                 "ground"
             ]
         },
-        {
-            "galar_no": "180",
+        "180": {
             "name": "Arrokuda",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "181",
+        "181": {
             "name": "Barraskewda",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "182",
+        "182": {
             "name": "Meowth",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "183",
+        "183": {
             "name": "Perrserker",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "184",
+        "184": {
             "name": "Persian",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "185",
+        "185": {
             "name": "Milcery",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "186",
+        "186": {
             "name": "Alcremie",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "187",
+        "187": {
             "name": "Cutiefly",
             "type": [
                 "bug",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "188",
+        "188": {
             "name": "Ribombee",
             "type": [
                 "bug",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "189",
+        "189": {
             "name": "Ferroseed",
             "type": [
                 "grass",
                 "steel"
             ]
         },
-        {
-            "galar_no": "190",
+        "190": {
             "name": "Ferrothorn",
             "type": [
                 "grass",
                 "steel"
             ]
         },
-        {
-            "galar_no": "191",
+        "191": {
             "name": "Pumpkaboo",
             "type": [
                 "ghost",
                 "grass"
             ]
         },
-        {
-            "galar_no": "192",
+        "192": {
             "name": "Gourgeist",
             "type": [
                 "ghost",
                 "grass"
             ]
         },
-        {
-            "galar_no": "193",
+        "193": {
             "name": "Pichu",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "194",
+        "194": {
             "name": "Pikachu",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "195",
+        "195": {
             "name": "Raichu",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "196",
+        "196": {
             "name": "Eevee",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "197",
+        "197": {
             "name": "Vaporeon",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "198",
+        "198": {
             "name": "Jolteon",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "199",
+        "199": {
             "name": "Flareon",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "200",
+        "200": {
             "name": "Espeon",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "201",
+        "201": {
             "name": "Umbreon",
             "type": [
                 "dark"
             ]
         },
-        {
-            "galar_no": "202",
+        "202": {
             "name": "Leafeon",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "203",
+        "203": {
             "name": "Glaceon",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "204",
+        "204": {
             "name": "Sylveon",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "205",
+        "205": {
             "name": "Applin",
             "type": [
                 "grass",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "206",
+        "206": {
             "name": "Flapple",
             "type": [
                 "grass",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "207",
+        "207": {
             "name": "Appletun",
             "type": [
                 "grass",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "208",
+        "208": {
             "name": "Espurr",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "209",
+        "209": {
             "name": "Meowstic",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "210",
+        "210": {
             "name": "Swirlix",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "211",
+        "211": {
             "name": "Slurpuff",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "212",
+        "212": {
             "name": "Spritzee",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "213",
+        "213": {
             "name": "Aromatisse",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "214",
+        "214": {
             "name": "Dewpider",
             "type": [
                 "water",
                 "bug"
             ]
         },
-        {
-            "galar_no": "215",
+        "215": {
             "name": "Araquanid",
             "type": [
                 "water",
                 "bug"
             ]
         },
-        {
-            "galar_no": "216",
+        "216": {
             "name": "Wynaut",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "217",
+        "217": {
             "name": "Wobbuffet",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "218",
+        "218": {
             "name": "Farfetch'd",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "219",
+        "219": {
             "name": "Sirfetch'd",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "220",
+        "220": {
             "name": "Chinchou",
             "type": [
                 "water",
                 "electric"
             ]
         },
-        {
-            "galar_no": "221",
+        "221": {
             "name": "Lanturn",
             "type": [
                 "water",
                 "electric"
             ]
         },
-        {
-            "galar_no": "222",
+        "222": {
             "name": "Croagunk",
             "type": [
                 "poison",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "223",
+        "223": {
             "name": "Toxicroak",
             "type": [
                 "poison",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "224",
+        "224": {
             "name": "Scraggy",
             "type": [
                 "dark",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "225",
+        "225": {
             "name": "Scrafty",
             "type": [
                 "dark",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "226",
+        "226": {
             "name": "Stunfisk",
             "type": [
                 "ground",
                 "steel"
             ]
         },
-        {
-            "galar_no": "227",
+        "227": {
             "name": "Shuckle",
             "type": [
                 "bug",
                 "rock"
             ]
         },
-        {
-            "galar_no": "228",
+        "228": {
             "name": "Barboach",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "229",
+        "229": {
             "name": "Whiscash",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "230",
+        "230": {
             "name": "Shellos",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "231",
+        "231": {
             "name": "Gastrodon",
             "type": [
                 "water",
                 "ground"
             ]
         },
-        {
-            "galar_no": "232",
+        "232": {
             "name": "Wimpod",
             "type": [
                 "bug",
                 "water"
             ]
         },
-        {
-            "galar_no": "233",
+        "233": {
             "name": "Golisopod",
             "type": [
                 "bug",
                 "water"
             ]
         },
-        {
-            "galar_no": "234",
+        "234": {
             "name": "Binacle",
             "type": [
                 "rock",
                 "water"
             ]
         },
-        {
-            "galar_no": "235",
+        "235": {
             "name": "Barbaracle",
             "type": [
                 "rock",
                 "water"
             ]
         },
-        {
-            "galar_no": "236",
+        "236": {
             "name": "Corsola",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "237",
+        "237": {
             "name": "Cursola",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "238",
+        "238": {
             "name": "Impidimp",
             "type": [
                 "dark",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "239",
+        "239": {
             "name": "Morgrem",
             "type": [
                 "dark",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "240",
+        "240": {
             "name": "Grimmsnarl",
             "type": [
                 "dark",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "241",
+        "241": {
             "name": "Hatenna",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "242",
+        "242": {
             "name": "Hattrem",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "243",
+        "243": {
             "name": "Hatterene",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "244",
+        "244": {
             "name": "Salandit",
             "type": [
                 "poison",
                 "fire"
             ]
         },
-        {
-            "galar_no": "245",
+        "245": {
             "name": "Salazzle",
             "type": [
                 "poison",
                 "fire"
             ]
         },
-        {
-            "galar_no": "246",
+        "246": {
             "name": "Pawniard",
             "type": [
                 "dark",
                 "steel"
             ]
         },
-        {
-            "galar_no": "247",
+        "247": {
             "name": "Bisharp",
             "type": [
                 "dark",
                 "steel"
             ]
         },
-        {
-            "galar_no": "248",
+        "248": {
             "name": "Throh",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "249",
+        "249": {
             "name": "Sawk",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "250",
+        "250": {
             "name": "Koffing",
             "type": [
                 "poison"
             ]
         },
-        {
-            "galar_no": "251",
+        "251": {
             "name": "Weezing",
             "type": [
                 "poison",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "252",
+        "252": {
             "name": "Bonsly",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "253",
+        "253": {
             "name": "Sudowoodo",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "254",
+        "254": {
             "name": "Cleffa",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "255",
+        "255": {
             "name": "Clefairy",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "256",
+        "256": {
             "name": "Clefable",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "257",
+        "257": {
             "name": "Togepi",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "258",
+        "258": {
             "name": "Togetic",
             "type": [
                 "fairy",
                 "flying"
             ]
         },
-        {
-            "galar_no": "259",
+        "259": {
             "name": "Togekiss",
             "type": [
                 "fairy",
                 "flying"
             ]
         },
-        {
-            "galar_no": "260",
+        "260": {
             "name": "Munchlax",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "261",
+        "261": {
             "name": "Snorlax",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "262",
+        "262": {
             "name": "Cottonee",
             "type": [
                 "grass",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "263",
+        "263": {
             "name": "Whimsicott",
             "type": [
                 "grass",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "264",
+        "264": {
             "name": "Rhyhorn",
             "type": [
                 "ground",
                 "rock"
             ]
         },
-        {
-            "galar_no": "265",
+        "265": {
             "name": "Rhydon",
             "type": [
                 "ground",
                 "rock"
             ]
         },
-        {
-            "galar_no": "266",
+        "266": {
             "name": "Rhyperior",
             "type": [
                 "ground",
                 "rock"
             ]
         },
-        {
-            "galar_no": "267",
+        "267": {
             "name": "Gothita",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "268",
+        "268": {
             "name": "Gothorita",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "269",
+        "269": {
             "name": "Gothitelle",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "270",
+        "270": {
             "name": "Solosis",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "271",
+        "271": {
             "name": "Duosion",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "272",
+        "272": {
             "name": "Reuniclus",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "273",
+        "273": {
             "name": "Karrablast",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "274",
+        "274": {
             "name": "Escavalier",
             "type": [
                 "bug",
                 "steel"
             ]
         },
-        {
-            "galar_no": "275",
+        "275": {
             "name": "Shelmet",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "276",
+        "276": {
             "name": "Accelgor",
             "type": [
                 "bug"
             ]
         },
-        {
-            "galar_no": "277",
+        "277": {
             "name": "Elgyem",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "278",
+        "278": {
             "name": "Beheeyem",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "279",
+        "279": {
             "name": "Cubchoo",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "280",
+        "280": {
             "name": "Beartic",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "281",
+        "281": {
             "name": "Rufflet",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "282",
+        "282": {
             "name": "Braviary",
             "type": [
                 "normal",
                 "flying"
             ]
         },
-        {
-            "galar_no": "283",
+        "283": {
             "name": "Vullaby",
             "type": [
                 "dark",
                 "flying"
             ]
         },
-        {
-            "galar_no": "284",
+        "284": {
             "name": "Mandibuzz",
             "type": [
                 "dark",
                 "flying"
             ]
         },
-        {
-            "galar_no": "285",
+        "285": {
             "name": "Skorupi",
             "type": [
                 "poison",
                 "bug"
             ]
         },
-        {
-            "galar_no": "286",
+        "286": {
             "name": "Drapion",
             "type": [
                 "poison",
                 "dark"
             ]
         },
-        {
-            "galar_no": "287",
+        "287": {
             "name": "Litwick",
             "type": [
                 "ghost",
                 "fire"
             ]
         },
-        {
-            "galar_no": "288",
+        "288": {
             "name": "Lampent",
             "type": [
                 "ghost",
                 "fire"
             ]
         },
-        {
-            "galar_no": "289",
+        "289": {
             "name": "Chandelure",
             "type": [
                 "ghost",
                 "fire"
             ]
         },
-        {
-            "galar_no": "290",
+        "290": {
             "name": "Inkay",
             "type": [
                 "dark",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "291",
+        "291": {
             "name": "Malamar",
             "type": [
                 "dark",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "292",
+        "292": {
             "name": "Sneasel",
             "type": [
                 "dark",
                 "ice"
             ]
         },
-        {
-            "galar_no": "293",
+        "293": {
             "name": "Weavile",
             "type": [
                 "dark",
                 "ice"
             ]
         },
-        {
-            "galar_no": "294",
+        "294": {
             "name": "Sableye",
             "type": [
                 "dark",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "295",
+        "295": {
             "name": "Mawile",
             "type": [
                 "steel",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "296",
+        "296": {
             "name": "Maractus",
             "type": [
                 "grass"
             ]
         },
-        {
-            "galar_no": "297",
+        "297": {
             "name": "Sigilyph",
             "type": [
                 "psychic",
                 "flying"
             ]
         },
-        {
-            "galar_no": "298",
+        "298": {
             "name": "Riolu",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "299",
+        "299": {
             "name": "Lucario",
             "type": [
                 "fighting",
                 "steel"
             ]
         },
-        {
-            "galar_no": "300",
+        "300": {
             "name": "Torkoal",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "301",
+        "301": {
             "name": "Mimikyu",
             "type": [
                 "ghost",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "302",
+        "302": {
             "name": "Cufant",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "303",
+        "303": {
             "name": "Copperajah",
             "type": [
                 "steel"
             ]
         },
-        {
-            "galar_no": "304",
+        "304": {
             "name": "Qwilfish",
             "type": [
                 "water",
                 "poison"
             ]
         },
-        {
-            "galar_no": "305",
+        "305": {
             "name": "Frillish",
             "type": [
                 "water",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "306",
+        "306": {
             "name": "Jellicent",
             "type": [
                 "water",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "307",
+        "307": {
             "name": "Mareanie",
             "type": [
                 "poison",
                 "water"
             ]
         },
-        {
-            "galar_no": "308",
+        "308": {
             "name": "Toxapex",
             "type": [
                 "poison",
                 "water"
             ]
         },
-        {
-            "galar_no": "309",
+        "309": {
             "name": "Cramorant",
             "type": [
                 "flying",
                 "water"
             ]
         },
-        {
-            "galar_no": "310",
+        "310": {
             "name": "Toxel",
             "type": [
                 "electric",
                 "poison"
             ]
         },
-        {
-            "galar_no": "311",
+        "311": {
             "name": "Toxtricity",
             "type": [
                 "electric",
                 "poison"
             ]
         },
-        {
-            "galar_no": "312",
+        "312": {
             "name": "Silicobra",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "313",
+        "313": {
             "name": "Sandaconda",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "314",
+        "314": {
             "name": "Hippopotas",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "315",
+        "315": {
             "name": "Hippowdon",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "316",
+        "316": {
             "name": "Durant",
             "type": [
                 "bug",
                 "steel"
             ]
         },
-        {
-            "galar_no": "317",
+        "317": {
             "name": "Heatmor",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "318",
+        "318": {
             "name": "Helioptile",
             "type": [
                 "electric",
                 "normal"
             ]
         },
-        {
-            "galar_no": "319",
+        "319": {
             "name": "Heliolisk",
             "type": [
                 "electric",
                 "normal"
             ]
         },
-        {
-            "galar_no": "320",
+        "320": {
             "name": "Hawlucha",
             "type": [
                 "fighting",
                 "flying"
             ]
         },
-        {
-            "galar_no": "321",
+        "321": {
             "name": "Trapinch",
             "type": [
                 "ground"
             ]
         },
-        {
-            "galar_no": "322",
+        "322": {
             "name": "Vibrava",
             "type": [
                 "ground",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "323",
+        "323": {
             "name": "Flygon",
             "type": [
                 "ground",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "324",
+        "324": {
             "name": "Axew",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "325",
+        "325": {
             "name": "Fraxure",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "326",
+        "326": {
             "name": "Haxorus",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "327",
+        "327": {
             "name": "Yamask",
             "type": [
                 "ground",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "328",
+        "328": {
             "name": "Runerigus",
             "type": [
                 "ground",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "329",
+        "329": {
             "name": "Cofagrigus",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "330",
+        "330": {
             "name": "Honedge",
             "type": [
                 "steel",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "331",
+        "331": {
             "name": "Doublade",
             "type": [
                 "steel",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "332",
+        "332": {
             "name": "Aegislash",
             "type": [
                 "steel",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "333",
+        "333": {
             "name": "Ponyta",
             "type": [
                 "psychic"
             ]
         },
-        {
-            "galar_no": "334",
+        "334": {
             "name": "Rapidash",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "335",
+        "335": {
             "name": "Sinistea",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "336",
+        "336": {
             "name": "Polteageist",
             "type": [
                 "ghost"
             ]
         },
-        {
-            "galar_no": "337",
+        "337": {
             "name": "Indeedee",
             "type": [
                 "psychic",
                 "normal"
             ]
         },
-        {
-            "galar_no": "338",
+        "338": {
             "name": "Phantump",
             "type": [
                 "ghost",
                 "grass"
             ]
         },
-        {
-            "galar_no": "339",
+        "339": {
             "name": "Trevenant",
             "type": [
                 "ghost",
                 "grass"
             ]
         },
-        {
-            "galar_no": "340",
+        "340": {
             "name": "Morelull",
             "type": [
                 "grass",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "341",
+        "341": {
             "name": "Shiinotic",
             "type": [
                 "grass",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "342",
+        "342": {
             "name": "Oranguru",
             "type": [
                 "normal",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "343",
+        "343": {
             "name": "Passimian",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "344",
+        "344": {
             "name": "Morpeko",
             "type": [
                 "electric",
                 "dark"
             ]
         },
-        {
-            "galar_no": "345",
+        "345": {
             "name": "Falinks",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "346",
+        "346": {
             "name": "Drampa",
             "type": [
                 "normal",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "347",
+        "347": {
             "name": "Turtonator",
             "type": [
                 "fire",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "348",
+        "348": {
             "name": "Togedemaru",
             "type": [
                 "electric",
                 "steel"
             ]
         },
-        {
-            "galar_no": "349",
+        "349": {
             "name": "Snom",
             "type": [
                 "ice",
                 "bug"
             ]
         },
-        {
-            "galar_no": "350",
+        "350": {
             "name": "Frosmoth",
             "type": [
                 "ice",
                 "bug"
             ]
         },
-        {
-            "galar_no": "351",
+        "351": {
             "name": "Clobbopus",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "352",
+        "352": {
             "name": "Grapploct",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "353",
+        "353": {
             "name": "Pincurchin",
             "type": [
                 "electric"
             ]
         },
-        {
-            "galar_no": "354",
+        "354": {
             "name": "Mantyke",
             "type": [
                 "water",
                 "flying"
             ]
         },
-        {
-            "galar_no": "355",
+        "355": {
             "name": "Mantine",
             "type": [
                 "water",
                 "flying"
             ]
         },
-        {
-            "galar_no": "356",
+        "356": {
             "name": "Wailmer",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "357",
+        "357": {
             "name": "Wailord",
             "type": [
                 "water"
             ]
         },
-        {
-            "galar_no": "358",
+        "358": {
             "name": "Bergmite",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "359",
+        "359": {
             "name": "Avalugg",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "360",
+        "360": {
             "name": "Dhelmise",
             "type": [
                 "ghost",
                 "grass"
             ]
         },
-        {
-            "galar_no": "361",
+        "361": {
             "name": "Lapras",
             "type": [
                 "water",
                 "ice"
             ]
         },
-        {
-            "galar_no": "362",
+        "362": {
             "name": "Lunatone",
             "type": [
                 "rock",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "363",
+        "363": {
             "name": "Solrock",
             "type": [
                 "rock",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "364",
+        "364": {
             "name": "Mime Jr.",
             "type": [
                 "psychic",
                 "fairy"
             ]
         },
-        {
-            "galar_no": "365",
+        "365": {
             "name": "Mr. Mime",
             "type": [
                 "ice",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "366",
+        "366": {
             "name": "Mr. Rime",
             "type": [
                 "ice",
                 "psychic"
             ]
         },
-        {
-            "galar_no": "367",
+        "367": {
             "name": "Darumaka",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "368",
+        "368": {
             "name": "Darmanitan",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "369",
+        "369": {
             "name": "Stonjourner",
             "type": [
                 "rock"
             ]
         },
-        {
-            "galar_no": "370",
+        "370": {
             "name": "Eiscue",
             "type": [
                 "ice"
             ]
         },
-        {
-            "galar_no": "371",
+        "371": {
             "name": "Duraludon",
             "type": [
                 "steel",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "372",
+        "372": {
             "name": "Rotom",
             "type": [
                 "electric",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "373",
+        "373": {
             "name": "Ditto",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "374",
+        "374": {
             "name": "Dracozolt",
             "type": [
                 "electric",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "375",
+        "375": {
             "name": "Arctozolt",
             "type": [
                 "electric",
                 "ice"
             ]
         },
-        {
-            "galar_no": "376",
+        "376": {
             "name": "Dracovish",
             "type": [
                 "water",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "377",
+        "377": {
             "name": "Arctovish",
             "type": [
                 "water",
                 "ice"
             ]
         },
-        {
-            "galar_no": "378",
+        "378": {
             "name": "Charmander",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "379",
+        "379": {
             "name": "Charmeleon",
             "type": [
                 "fire"
             ]
         },
-        {
-            "galar_no": "380",
+        "380": {
             "name": "Charizard",
             "type": [
                 "fire",
                 "flying"
             ]
         },
-        {
-            "galar_no": "381",
+        "381": {
             "name": "Type: Null",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "382",
+        "382": {
             "name": "Silvally",
             "type": [
                 "normal"
             ]
         },
-        {
-            "galar_no": "383",
+        "383": {
             "name": "Larvitar",
             "type": [
                 "rock",
                 "ground"
             ]
         },
-        {
-            "galar_no": "384",
+        "384": {
             "name": "Pupitar",
             "type": [
                 "rock",
                 "ground"
             ]
         },
-        {
-            "galar_no": "385",
+        "385": {
             "name": "Tyranitar",
             "type": [
                 "rock",
                 "dark"
             ]
         },
-        {
-            "galar_no": "386",
+        "386": {
             "name": "Deino",
             "type": [
                 "dark",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "387",
+        "387": {
             "name": "Zweilous",
             "type": [
                 "dark",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "388",
+        "388": {
             "name": "Hydreigon",
             "type": [
                 "dark",
                 "dragon"
             ]
         },
-        {
-            "galar_no": "389",
+        "389": {
             "name": "Goomy",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "390",
+        "390": {
             "name": "Sliggoo",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "391",
+        "391": {
             "name": "Goodra",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "392",
+        "392": {
             "name": "Jangmo-o",
             "type": [
                 "dragon"
             ]
         },
-        {
-            "galar_no": "393",
+        "393": {
             "name": "Hakamo-o",
             "type": [
                 "dragon",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "394",
+        "394": {
             "name": "Kommo-o",
             "type": [
                 "dragon",
                 "fighting"
             ]
         },
-        {
-            "galar_no": "395",
+        "395": {
             "name": "Dreepy",
             "type": [
                 "dragon",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "396",
+        "396": {
             "name": "Drakloak",
             "type": [
                 "dragon",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "397",
+        "397": {
             "name": "Dragapult",
             "type": [
                 "dragon",
                 "ghost"
             ]
         },
-        {
-            "galar_no": "398",
+        "398": {
             "name": "Zacian",
             "type": [
                 "fairy"
             ]
         },
-        {
-            "galar_no": "399",
+        "399": {
             "name": "Zamazenta",
             "type": [
                 "fighting"
             ]
         },
-        {
-            "galar_no": "400",
+        "400": {
             "name": "Eternatus",
             "type": [
                 "poison",
                 "dragon"
             ]
         }
-    ]
+    }
 }
